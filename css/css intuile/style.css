@@ -1,0 +1,63 @@
+body {
+  font: 100% sans-serif; }
+  body .formulaire {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px; }
+    body .formulaire .titre {
+      font-size: 33px;
+      text-align: center;
+      margin-bottom: 20px; }
+    body .formulaire .paragraph {
+      font-size: 20px;
+      margin-bottom: 15px; }
+    body .formulaire .list {
+      list-style-type: disc; }
+      body .formulaire .list .list__element {
+        font-size: 20px;
+        width: 500px;
+        margin: 0 auto;
+        margin-bottom: 15px; }
+    body .formulaire .form {
+      max-width: 300px;
+      margin: 0 auto; }
+      body .formulaire .form .fieldset {
+        clear: both; }
+        body .formulaire .form .fieldset .label {
+          display: block;
+          font-size: 24px;
+          margin-bottom: 10px; }
+        body .formulaire .form .fieldset .input {
+          display: block;
+          width: 294px;
+          font-size: 24px;
+          margin-bottom: 30px; }
+        body .formulaire .form .fieldset .select {
+          display: block;
+          float: left;
+          margin: 0;
+          font-size: 18px;
+          border: 1px solid #ccc;
+          border-radius: 0; }
+        body .formulaire .form .fieldset #day {
+          width: 23%; }
+        body .formulaire .form .fieldset #month {
+          width: 50%;
+          margin-left: 2%;
+          margin-right: 2%;
+          margin-bottom: 30px; }
+        body .formulaire .form .fieldset #year {
+          width: 23%; }
+        body .formulaire .form .fieldset .errors {
+          border: 1px solid red;
+          background: red; }
+      body .formulaire .form .antispams {
+        display: none; }
+      body .formulaire .form .btn {
+        display: block;
+        width: 100%;
+        font-size: 24px;
+        border: 1px solid #ccc;
+        background: #fff; }
+
+/*# sourceMappingURL=style.css.map */
