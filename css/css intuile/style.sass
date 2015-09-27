@@ -1,0 +1,95 @@
+$font: sans-serif
+$fontBig: 33px
+$fontNorm: 20px
+$marginNorm: 15px
+$marginLittle: 10px
+
+
+body
+	font: 100% $font
+
+	.formulaire
+		max-width: 600px
+		margin: 0 auto
+		padding: 20px
+
+		.titre
+			font-size: $fontBig
+			text-align: center
+			margin-bottom: 20px
+
+		.paragraph
+			font-size: $fontNorm
+			margin-bottom: $marginNorm
+
+		.list
+			list-style-type: disc
+
+			.list__element
+				font-size: $fontNorm
+				width: 500px
+				margin: 0 auto
+				margin-bottom: $marginNorm
+
+		.form
+			max-width: 300px
+			margin: 0 auto
+
+			.fieldset
+				clear: both
+
+				.label
+					display: block
+					font-size: 24px
+					margin-bottom: $marginLittle
+
+				.input
+					display: block
+					width: 294px
+					font-size: 24px
+					margin-bottom: 30px
+
+				.select 
+					display: block
+					float: left
+					margin: 0
+					font-size: 18px
+					border: 1px solid #ccc
+					border-radius: 0
+				#day
+					width: 23%
+				#month
+					width: 50%
+					margin-left: 2%
+					margin-right: 2%
+					margin-bottom: 30px
+				#year
+					width: 23%
+				.errors
+					border: 1px solid red
+					background: red
+
+			.antispams
+				display: none
+
+			.btn
+				display: block
+				width: 100%
+				font-size: 24px
+				border: 1px solid #ccc
+				background: #fff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

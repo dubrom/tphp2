@@ -1,0 +1,114 @@
+
+body{
+  font: 100% sans-serif;
+}
+header{
+  padding: 10px;
+}
+  header img{
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+  }
+
+  .formulaire{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+    .titre{
+      font-size: 33px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .paragraph{
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    .list{
+      list-style-type: disc;
+    } 
+      .list__element{
+        font-size: 20px;
+        width: 500px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+      }
+    .form{
+      max-width: 300px;
+      margin: 0 auto;
+    }
+      .fieldset{
+        clear: both;
+      }
+        .label{
+          display: block;
+          font-size: 24px;
+          margin-bottom: 10px;
+        }
+        .input{
+          display: block;
+          width: 294px;
+          font-size: 24px;
+          margin-bottom: 30px;
+        }
+        .select {
+          display: block;
+          float: left;
+          margin: 0;
+          font-size: 16px;
+          border: 1px solid #ccc;
+          border-radius: 0;
+        }
+        .select--question{
+          width: 100%;
+          margin-bottom: 30px;
+        }
+        #day{
+          width: 23%;
+        }
+        #month{
+          width: 50%;
+          margin-left: 2%;
+          margin-right: 2%;
+          margin-bottom: 30px;
+        }
+        #year{
+          width: 23%;
+        }
+        .errors{
+          border: 1px solid red;
+        }
+
+      .antispams{
+        display: none;
+      }
+
+      .btn{
+        display: block;
+        width: 100%;
+        font-size: 24px;
+        border: 1px solid #ccc;
+        background: #fff;
+      }
+
+      .disparition{
+        display: none;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
